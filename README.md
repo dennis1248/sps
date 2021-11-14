@@ -4,13 +4,13 @@
 ### Compiling
 To compile the program.
 ```
-$	cargo run
+cargo run
 ```
 
 OR
 
 ```
-$	cargo build --release
+cargo build --release
 ```
 
 The binary can be found afterwards in ./target
