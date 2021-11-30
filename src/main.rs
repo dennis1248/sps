@@ -27,7 +27,7 @@ fn player_move() -> u8 {
         // Player move
         println!("Player move:");
         player_move = String::new();
-        let i = std::io::stdin()
+        std::io::stdin()
             .read_line(&mut player_move)
             .unwrap();
 
